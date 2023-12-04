@@ -523,14 +523,16 @@ for signaling.
 
 The parameters[\[2\]] to activate this feature are:
 | Parameters | For CKB Testnet | For CKB Mainnet |
-|-------|---------------|---------------|
+|:------|--------------:|--------------:|
 | `name` | LightClient | LightClient |
 | `bit` | 1 | 1 |
-| `start_epoch` | 5346 (approx. 2022-10-31 15:00:00 UTC) | 8282 (approx. 2023-09-01 00:00:00 UTC) |
-| `timeout_epoch` | 5616 (approx. 2022-12-14 15:00:00 UTC) | 8552 (approx. 2023-10-15 00:00:00 UTC) |
-| `period` | 42 | 42 |
+| `start_epoch` | 5346 | 8282 |
+| `timeout_epoch` | 5616 | 8552 |
+| `period`    | 42 | 42 |
 | `threshold` | 75% | 80% |
-| `min_activation_epoch` | 5676 (approx. 2022-12-24 15:00:00 UTC) | 8648 (approx. 2023-11-01 00:00:00 UTC) |
+| `min_activation_epoch`  | 5676 | 8648 |
+| `real_activation_epoch` | 5711 | 8651 |
+| `real_activation_timestamp` | 2022/12/31 12:16:34 UTC | 2023/11/01 11:12:44 UTC |
 
 > Some parameters for CKB mainnet are to be determined.
 
